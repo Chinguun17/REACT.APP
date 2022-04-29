@@ -1,0 +1,74 @@
+.Welcome{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin: auto;
+    
+}
+.Genres{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    background-image: linear-gradient(rgb(39, 29, 100),30% ,rgb(24, 23, 23));
+}
+
+.genres-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    cursor: pointer
+}
+
+.genre{
+    height: 80px;
+    width: 250px;
+    margin-left: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.genre-img{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+.genre-text{
+    color: white;
+    opacity: 1;
+    margin-left: 15px;
+}
+
+.scroller-container{
+    position: absolute;
+    top: 120px;
+    width: 95%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.scroll-left, .scroll-right{
+    font-size: 30px;
+    cursor: pointer;
+    color: grey;
+}
+
+.scroll-left:hover, .scroll-right:hover{
+    color: white;
+}
+
+.genres-navlink{
+    text-decoration: none;
+}
+

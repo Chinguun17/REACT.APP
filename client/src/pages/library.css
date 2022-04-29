@@ -1,0 +1,73 @@
+.Library{
+    width: 85%;
+    height: auto;
+    margin-left: max(15%, 135px);
+    padding-top: 69px;
+}
+
+.songs-header-container1{
+    top: 65px;        
+    width: 100%;
+    color: grey;
+    position: sticky;
+    font-style: italic;
+    background: rgb(24, 23, 23);
+}
+
+.songs-header1{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    padding: 5px 0;    
+    text-align: left;
+    grid-template-columns: 8% 64% 14% 18%;
+}
+
+
+.library-songs{
+    width: 100%;
+    color: white;
+}
+
+.library-song{
+    width: 90%;
+    height: 51px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 5% 69% 12% 14%;
+    align-items: center;
+}
+
+.library-song:hover{
+    background-color: rgb(41, 39, 39);
+}
+.library-song-text{
+    padding-left: 30px;
+    text-align: left;
+    color: white;
+}
+.library-song-img{
+    width: 50px;
+    height: 50px;
+}
+
+.addListIcon{
+    color: white;
+    cursor: pointer;
+    font-size: 27px;
+}
+
+.youtube-icon{
+    font-size: 27px;
+    color: grey;
+}
+
+.youtube-icon:hover{
+    color: red;
+}
+
+.listen-text{
+    margin-left: 30px;
+}
+

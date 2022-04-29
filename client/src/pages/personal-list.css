@@ -1,0 +1,81 @@
+.List{
+    width: 85%;
+    height: auto;
+    margin-left: max(15%, 135px);
+    padding-top: 69px;
+}
+.songs-header-container{
+    top: 65px;    
+    width: 100%;
+    color: grey;
+    position: sticky;    
+    font-style: italic;
+    background: rgb(24, 23, 23);
+}
+
+.songs-header{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    text-align: left;    
+    grid-template-columns: 8% 65% 16% 16%;
+
+}
+.list-songs{
+    width: 100%;
+    color: white;
+    list-style: decimal;
+}
+
+
+.list-song{
+    width: 90%;
+    height: 51px;
+    margin: auto;
+    display: grid;  
+    align-items: center;      
+    margin-bottom: 20px;
+    grid-template-columns: 5% 71% 14% 10%;
+
+}
+
+
+.list-song:hover{
+    background-color: rgb(41, 39, 39);
+}
+.list-song-text{
+    padding-left: 30px;
+    text-align: left;
+    color: white;
+}
+
+.list-song-img{
+    width: 50px;
+    height: 50px;
+}
+
+.youtube-icon-container{
+    text-align: left;
+}
+
+.youtube-icon{
+    font-size: 27px;
+    color: grey;
+}
+
+.youtube-icon:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.delete-icon{
+    font-size: 23px;
+}
+.delete-icon:hover{
+    cursor: pointer;
+}
+.empty-text{
+    padding-top: 200px;
+}
+
+

@@ -1,0 +1,29 @@
+.Login{
+    width: 85%;
+    height: auto;
+    margin-left: max(15%, 135px);
+    padding-top: 150px;
+}
+
+.log-banner-container{
+    margin: auto;    
+    width: 280px;
+    height: 350px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(220deg, rgb(50, 33, 77), rgb(26, 18, 37));
+}
+a{
+    color: #8d62e9; 
+}
+.google-logo{
+    font-size: 70px;
+}
+
+.texts{
+    color: white
+}
+

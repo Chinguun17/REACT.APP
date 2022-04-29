@@ -1,0 +1,70 @@
+.personal-lists-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 70px 0;
+}
+
+.personal-list{
+    background-color: rgb(34, 33, 33);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.list-img{
+    width: 200px;
+    height: 200px;
+}
+
+.list-text-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    width: 200px;
+    padding-bottom: 8px;
+}
+
+.nav-to-list{
+    text-decoration: none;
+    color: white
+}
+
+.list-name-container{
+    width: 200px;
+    margin-top: 20px;
+    padding-bottom: 8px;
+}
+
+.delete-list{
+    top: 0;
+    right: 0;      
+    cursor: pointer;      
+    font-size: 20px;
+    position: absolute;
+}
+
+.delete-list-popup{
+    top: 300px;
+    z-index: 2;
+    padding: 10px;      
+    color: white;
+    position: fixed; 
+    border-radius: 8px;   
+    left: max(390px, 62%);
+    transform: translateX(-75%);
+    border: 1px solid #8d62e9;
+    background-color: rgb(39, 29, 100);
+}
+
+.delete-list-popup-text{
+    padding: 10px;  
+}
+.delete-list-popup-button{
+    margin-right: 10px
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+.LeftNav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    min-width: 135px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+}
+
+.leftNav-elements{
+    text-align: left;
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+.leftnav-link{
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.initials{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.initials:hover{
+    cursor: pointer;
+}
+

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+.LeftNavButton-container{
+    background: black;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* color: rgb(138, 132, 132); */
+}
+.LeftNavButton-container:hover{
+    cursor: pointer;
+    color: var(--hover-color) !important
+}
+
+.leftNav-icon{
+    padding: 0px 15px;
+    font-size: 30px;
+}
+
+.leftNav-text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+
+
+

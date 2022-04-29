@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap');
+
+
+
+.generator-container{
+    width: 300px;
+    margin:auto;
+    background-color: rgb(34, 33, 33);
+    padding: 5px 15px;
+    border-radius: 7px;
+}
+
+.select{
+    font-family: 'Rubik', sans-serif;
+    padding:10px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    border: none;
+}
+.generate-button{
+    background-color: rgb(34, 33, 33);
+    color:white
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.song-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.song-title{
+    width: 80%;
+}
+.song-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.youtube-icon{
+    color: grey;
+}
+
+.youtube-icon:hover{
+    color: red;
+}

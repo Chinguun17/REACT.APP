@@ -1,0 +1,28 @@
+.TopNav{
+    width: 100%;
+    max-height: 40px;
+    padding: 15px 0;
+    background-color: rgb(39, 29, 100);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+}
+nav{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.black-button{
+    margin-left: 10px
+}
+
+
+
+
+

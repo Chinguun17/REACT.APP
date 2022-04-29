@@ -1,0 +1,16 @@
+.Home{
+    width: 85%;
+    height: 1000px;
+    margin-left: max(15%, 135px);
+    padding-top: 69px;
+    border-bottom: 1px solid black;
+}
+.popup-lists-container{
+    position: fixed;
+    left: max(390px, 62%);
+    transform: translateX(-70%);
+    color: white;
+    z-index: 2;
+    top: 300px;
+    border: 3px solid rgb(37, 12, 199);
+}

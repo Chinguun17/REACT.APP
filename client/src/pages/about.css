@@ -1,0 +1,79 @@
+.About{
+    width: 85%;
+    height: auto;
+    margin-left: max(15%, 135px);
+    padding-top: 75px;
+}
+
+
+.about-container {
+    text-align: left;
+    padding: 60px 110px 20px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.05em;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 17px;
+    color: black;
+}
+.name{
+    font-size: 50px;
+    color: #8d62e9;
+}
+marquee{
+    margin: 0;
+    padding: 0;
+    height: 22px;
+    color: white;
+}
+
+.span {
+    margin-left: 170px;
+}
+.box {
+width: 400px;
+height: 200px;
+color: #8d62e9;
+margin: 0 auto;
+margin-bottom: 24px;
+background: rgb(26, 18, 37);
+box-shadow: 2px 2px 1px 1px #8d62e9;
+border-radius: 16px;
+position: relative;
+}
+
+.contact-text-container{
+    padding: 55px 40px;
+    text-align: left
+}
+.contact-text{
+    padding-top: 10px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+.sub-title{
+    font-family: 'Source Sans Pro', sans-serif;
+    left: 10px;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.main-text-button{
+    margin-top: 80px;
+    border-radius: 12px;  
+    border: 1px solid #8d62e9;
+    padding: 9px;  
+    background-color: rgb(26, 18, 37);
+}
+
+.main-text{
+    color:#8d62e9;
+}
+
+
+
